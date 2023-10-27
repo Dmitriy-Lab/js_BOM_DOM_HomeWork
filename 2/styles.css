@@ -1,0 +1,47 @@
+.header {
+  text-align: center;
+}
+
+.slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide {
+  width: 700px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+.buttons {
+  margin-top: 20px;
+  width: 700px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  padding: 7px 17px;
+  border: 1px solid black;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.btn:hover {
+  opacity: 0.7;
+  background-color: #fff;
+}
+
+.indi {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.indi:hover {
+  opacity: 0.7;
+  background-color: #fff;
+}/*# sourceMappingURL=styles.css.map */
